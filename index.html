@@ -27,6 +27,7 @@
 				<div class="elemnts--inline">
 					<p><label>Mirror<br>
 					<select name="mirror">
+						<option value="http://cdn-fastly.deb.debian.org/debian/">Fastest CDN</option>
 						<option value="http://ftp.at.debian.org/debian/">Austria</option>
 						<option value="http://ftp.au.debian.org/debian/">Australia</option>
 						<option value="http://ftp.be.debian.org/debian/">Belgium</option>
@@ -42,7 +43,6 @@
 						<option value="http://ftp.dk.debian.org/debian/">Denmark</option>
 						<option value="http://ftp.ee.debian.org/debian/">Estonia</option>
 						<option value="http://ftp.es.debian.org/debian/">Spain</option>
-						<option value="http://cdn-fastly.deb.debian.org/debian/" selected>Fastest CDN</option>
 						<option value="http://ftp.fi.debian.org/debian/">Finland</option>
 						<option value="http://ftp.fr.debian.org/debian/">France</option>
 						<option value="http://ftp.fr.debian.org/debian/">France</option>
@@ -77,7 +77,7 @@
 						<option value="http://ftp.tw.debian.org/debian/">Taiwan</option>
 						<option value="http://ftp.ua.debian.org/debian/">Ukraine</option>
 						<option value="http://ftp.us.debian.org/debian/">United States</option>
-						<option value="http://mirror.bizflycloud.vn/debian/">Vietnamese</option>
+						<option value="http://mirror.bizflycloud.vn/debian/" selected>Vietnamese</option>
 					</select></label></p>
 
 					<p><label>Releases<br>
@@ -118,7 +118,7 @@
 				<p><label><input name="src" type="checkbox" checked> Include source</label><br>
 					<label><input name="contrib" type="checkbox" checked> Contrib</label><br>
 					<label><input name="non-free" type="checkbox" checked> Non-Free</label><br>
-					<label><input name="security" type="checkbox" checked> Security</label></p>
+					<label><input name="security" type="checkbox"> Security</label></p>
 
 				<p><label>Source List<br>
 				<textarea autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" name="list" rows="10" cols="100"></textarea></label></p>
